@@ -38,7 +38,7 @@ public class Hanoi {
             }else{
                 hanoi(n - 1, A, C, B);//把n-1个盘子放到B上
                 move(A,C);//将最后一个盘子放到C中
-                hanoi(n - 1, B, A, C);
+                hanoi(n - 1, B, A, C);//将
             }
 
         }
@@ -65,13 +65,14 @@ public class Hanoi {
         } else {
             {
                 hanoi(n - 1, a, c, b);
-                System.out.println("1");
+                //System.out.println("1");
             }
             {move(a, c);
-                System.out.println("2");}
+               // System.out.println("2");
+                }
             {
                 hanoi(n - 1, b, a, c);
-                System.out.println("3");
+               // System.out.println("3");
             }
         }
     }
