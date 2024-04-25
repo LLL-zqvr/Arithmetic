@@ -1,8 +1,8 @@
-package com.example;
+package com.example.splitsearch;
 
 import java.util.Scanner;
 
-public class SplitSearch {
+public class Solution {
     //折半查找(前提是递增有序)
     //查找区间为：a[low...high]
     public static void main(String[] args) {

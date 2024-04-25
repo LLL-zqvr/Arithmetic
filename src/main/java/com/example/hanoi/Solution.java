@@ -1,8 +1,6 @@
-package com.example;
+package com.example.hanoi;
 
-import java.util.Scanner;
-
-public class Hanoi {
+public class Solution {
     //汉诺塔问题1
     /*
     力扣 https://leetcode.cn/problems/hanota-lcci/description/
