@@ -1,6 +1,6 @@
 package com.example.hanoi;
 
-public class Solution {
+public class Hanoi {
     //汉诺塔问题1
     /*
     力扣 https://leetcode.cn/problems/hanota-lcci/description/

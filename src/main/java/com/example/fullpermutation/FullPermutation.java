@@ -1,6 +1,6 @@
 package com.example.fullpermutation;
 
-public class Solution {
+public class FullPermutation {
         //全排列问题
         public static void main(String[] args) {
             int[] list = {1, 2, 3, 4};
