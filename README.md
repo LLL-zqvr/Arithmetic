@@ -10,11 +10,19 @@
 
 - **Git**
 
+### Find And Thinking
+
+1. leeCode上的程序执行逻辑好像和idea上的不大一样，
+比如`for(int i = left; i <= right; i++){}`,
+当left和right相等时，idea会再执行一遍for的内容，
+但是leeCode的程序就不会再执行for了。(所以如果在自己的程序里面运行正确但是在leeCode上提交代码发现错误时可以看看是不是因为这个原因。)
+
 ### Update
 
 #### 2024/7/31
 
 收录二分法(leecode num.705)
+根据二分法的较好题解重写代码(improve)
 
 #### 2024/4/25
 
