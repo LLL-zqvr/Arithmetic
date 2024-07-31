@@ -1,6 +1,5 @@
-package com.example.addtwonumberstogether;
+package com.example.school.addtwonumberstogether;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class AddTwoNumbersTogether {

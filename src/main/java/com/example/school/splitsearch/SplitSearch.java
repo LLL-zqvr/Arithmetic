@@ -1,4 +1,4 @@
-package com.example.splitsearch;
+package com.example.school.splitsearch;
 
 import java.util.Scanner;
 

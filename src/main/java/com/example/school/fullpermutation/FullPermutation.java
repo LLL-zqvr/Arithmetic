@@ -1,4 +1,4 @@
-package com.example.fullpermutation;
+package com.example.school.fullpermutation;
 
 public class FullPermutation {
         //全排列问题

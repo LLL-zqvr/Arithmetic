@@ -1,4 +1,4 @@
-package com.example.hanoi;
+package com.example.school.hanoi;
 
 public class Hanoi {
     //汉诺塔问题1
