@@ -10,7 +10,7 @@
 
 - **Git**
 
-### Find And Thinking
+### Finding And Thinking
 
 1. leeCode上的程序执行逻辑好像和idea上的不大一样，
 比如`for(int i = left; i <= right; i++){}`,
