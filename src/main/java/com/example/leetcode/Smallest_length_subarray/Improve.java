@@ -17,7 +17,7 @@ public class Improve {
             sum += nums[right];
             while (sum >= target) {
                 result = Math.min(result, right - left + 1);
-                sum -= nums[left++];//这里特别妙。循环完sum刚好清零。相当于初始化了。
+                sum -= nums[left++];//这里体现出滑动窗口的精髓之处，不断变更left（子序列的起始位置），尝试找到更优解
             }
         }
         return result == Integer.MAX_VALUE ? 0 : result;
@@ -40,3 +40,17 @@ public class Improve {
 
 
 }
+//结果:
+/*
+执行用时分布
+1
+ms
+击败
+99.80%
+复杂度分析
+消耗内存分布
+56.77
+MB
+击败
+28.54%
+ */
