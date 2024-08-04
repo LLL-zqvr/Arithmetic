@@ -46,8 +46,6 @@ public class Square {
 //结果
 /*
 执行用时分布
-        int[] num = sortedSquares(arr);
-
 5
 ms
 击败
