@@ -1,4 +1,4 @@
-package com.example.leetcode.spiral_matrix;
+package com.example.programmercarl.arrary.spiral_matrix;
 
 import java.util.Scanner;
 

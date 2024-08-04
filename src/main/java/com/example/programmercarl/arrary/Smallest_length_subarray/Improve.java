@@ -1,4 +1,4 @@
-package com.example.leetcode.Smallest_length_subarray;
+package com.example.programmercarl.arrary.Smallest_length_subarray;
 
 import java.util.Scanner;
 

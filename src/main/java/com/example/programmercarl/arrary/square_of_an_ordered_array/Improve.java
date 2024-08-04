@@ -1,6 +1,5 @@
-package com.example.leetcode.square_of_an_ordered_array;
+package com.example.programmercarl.arrary.square_of_an_ordered_array;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Improve {

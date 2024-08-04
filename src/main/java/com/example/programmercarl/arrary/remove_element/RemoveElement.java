@@ -1,8 +1,8 @@
-package com.example.leetcode.remove_element;
+package com.example.programmercarl.arrary.remove_element;
 
 import java.util.Scanner;
 
-public class Improve {
+public class RemoveElement {
     /*
     leeCode 27.移除元素
     给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素。元素的顺序可能发生改变。
@@ -52,24 +52,27 @@ public class Improve {
     0 <= nums.length <= 100
     0 <= nums[i] <= 50
     0 <= val <= 100
-     */
-    //双指针法：
-    /*
-    如果右指针指向的元素不等于 val，它一定是输出数组的一个元素，我们就将右指针指向的元素复制到左指针位置，
-    然后将左右指针同时右移；
 
-    如果右指针指向的元素等于 val，它不能在输出数组里，此时左指针不动，右指针右移一位。
-
-     */
+ */
     public static int removeElement(int[] nums, int val) {
-        int left = 0;
-        for(int right = 0; right < nums.length; right++){
-            if(val != nums[right]){
-                nums[left++] = nums[right];
+        int len = nums.length;
+        for(int i = 0; i < len; i++){
+            if(nums[i] == val){
+                if(len != 1){
+                    for(int j = i ; j < len - 1; j++){
+                        nums[j] = nums[j + 1];
+                    }
+                }else{
+                    nums = null;
+                }
+                i--;
+                len --;
             }
         }
-
-        return left;
+        for(int i = 0; i < len; i++){
+            System.out.println(nums[i]);
+        }
+        return len;
     }
 
     public static void main(String[] args) {
@@ -87,6 +90,7 @@ public class Improve {
         System.out.println(k);
 
     }
+
 }
 //结果：
 /*
@@ -96,7 +100,6 @@ ms
 击败
 100.00%
 
-复杂度分析
 消耗内存分布
 41.00
 MB
