@@ -2,7 +2,7 @@ package com.example.programmercarl.chain_table.remove_linked_list_element;
 
 import java.util.Scanner;
 
-public class RemoveElement {
+public class Improve {
     //203. 移除链表元素
     /*
     给你一个链表的头节点 head 和一个整数 val ，请你删除链表中所有满足 Node.val == val 的节点，
@@ -19,34 +19,15 @@ public class RemoveElement {
      * }
      */
     public static ListNode removeElements(ListNode head, int val) {
-        ListNode p = head;
-        int len = 0;
-        while (p != null) {
-            len++;
-            p = p.next;
+        while(head!=null && head.val==val) {
+            head = head.next;
         }
-        p = head;
-        ListNode temp;
-        //如果从头到尾都是需要删除的值
-        for (int i = 0; i < len; i++) {
-            if(head == null){
-                return head;
-            }
-            if (p.val == val) {
-                p = p.next;
-                head = p;
-            }else {
-                break;
-            }
-
-        }
-        //头部肯定不是被删除的值了
-        while (p != null && p.next != null){
-            if(p.next.val == val){
-                temp = p.next;
-                p.next = temp.next;
-            }else {
-                p = p.next;
+        ListNode curr = head;
+        while(curr!=null && curr.next !=null) {
+            if(curr.next.val == val){
+                curr.next = curr.next.next;
+            } else {
+                curr = curr.next;
             }
         }
         return head;
@@ -87,6 +68,7 @@ public class RemoveElement {
 }
 //结果
 /*
+
 执行用时分布
 1
 ms
