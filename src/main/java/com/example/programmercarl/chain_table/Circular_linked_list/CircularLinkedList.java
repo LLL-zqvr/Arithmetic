@@ -28,11 +28,16 @@ public class CircularLinkedList {
 
      */
     public static ListNode detectCycle(ListNode head) {
+
         ListNode p = head;
         if(p == null){
             return null;
         }
-        ListNode q = p.next;
+        ListNode q = head.next;
+        //人傻辽，为什么打出来的值会受到其他输入的影响啊
+        //啊原来是java的链表储存的问题。
+//        System.out.println(p);
+//        System.out.println(q);
         //只有头节点且有环
         if(q == p){
 
@@ -49,23 +54,26 @@ public class CircularLinkedList {
             return null;
         }
         while (num <= max && q.next != null){
+            num = 0;
+            p = head;
+//            System.out.println(q);
             while (p != q){
                 num++;
                 p = p.next;
                 if(max < num){
                     max = num;
-                } 
+                }
             }
-            System.out.println(num + " " + max);
-            if(max > num || q == null){
+            q = q.next;
+//            System.out.println(num + " " + max);
+            if(max > num || q.next == null){
                 break;
             }
-            num = 0;
-            p = head;
-            q = q.next;
-            //当是末尾且末尾自己为环if(q.next == q){
-            //                return q;
-            //            }
+
+//            当是末尾且末尾自己为环
+        if(q.next == q){
+                            return q;
+                        }
 
 
         }
@@ -109,11 +117,30 @@ public class CircularLinkedList {
         node6.next = node7;
         node7.next = node8;
         node8.next = node9;
-        node9.next = null;
-//        ListNode node = detectCycle(head);
-
+        node9.next = node9;
+        ListNode node = detectCycle(head);
+        System.out.println(node);
+        System.out.println(node9);
 //        System.out.println(node);
-        System.out.println(detectCycle(head) + " " + detectCycle(head).val);
-        System.out.println(node6 + " " + node6.val);
+//        ListNode p = head;
+//        while (p != null){
+//            System.out.println(p);
+//            p = p.next;
+//        }
     }
 }
+//结果：
+/*
+执行用时分布
+141
+ms
+击败
+2.93%
+复杂度分析
+消耗内存分布
+43.46
+MB
+击败
+70.57%
+
+ */
