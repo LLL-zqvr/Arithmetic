@@ -23,7 +23,7 @@
 ### Update
 
 #### 2024/8/23
-1. 收录代码环形链表(leeCode 142.环形链表Ⅱ)<br>
+1. 收录代码[环形链表](src/main/java/com/example/programmercarl/chain_table/circular_linked_list/CircularLinkedList.java)(leeCode 142.环形链表Ⅱ)<br>
    执行用时分布
    141
    ms
@@ -39,7 +39,7 @@
    我的思路是：q在前面跑，p在头节点处不动，计算
    p和q的距离。按道理来说应该是一直增大的，缩小就说明有环了。<br>
    <br>
-   较好题解的思路是：用快慢指针法——分别定义 fast 和 slow 指针，从头结点出发，fast指针每次移动两个节点，<br>
+   [较好题解](src/main/java/com/example/programmercarl/chain_table/circular_linked_list/OtherSolution.java)的思路是：用快慢指针法——分别定义 fast 和 slow 指针，从头结点出发，fast指针每次移动两个节点，<br>
    slow指针每次移动一个节点，如果 fast 和 slow指针在途中相遇 ，说明这个链表有环。<br>
    另：在后面，fast一直都在环上移动了,所以后面两指针相遇也肯定在环上。<br>
    根据数量关系计算(画图然后各种计算关系)，可以得出:<br>
@@ -50,7 +50,7 @@
    
 
 #### 2024/8/14
-1. 收录代码找链表相交的节点(leeCode 面试题 02.07. 链表相交)<br>
+1. 收录代码[找链表相交的节点](src/main/java/com/example/programmercarl/chain_table/intersection_of_linked_list/Intersection.java)(leeCode 面试题 02.07. 链表相交)<br>
    执行用时分布
    1
    ms
@@ -64,7 +64,7 @@
    75.08%<br>
    这里的思路是:从后往前找，因为如果有相交节点的话，两条链表的最后的节点肯定相等。<br>
    一直往前找相等的节点，直到节点不再相等，那么最后一个相等的节点就是两条链表的相交节点。<br><br>
-   查看题解时可以发现还有另一种思路：<br><br>
+   查看题解时可以发现还有[另一种思路](src/main/java/com/example/programmercarl/chain_table/intersection_of_linked_list/OtherSolution.java)：<br><br>
    先算出两个链表的长度，然后再计算差值，将两个链表对齐再一个节点一个节点从前往后比较，<br>
    找到相等的节点，既相交节点。<br>
    这个思路也挺好，而且实现也很简单。故做此纪录。<br>
@@ -85,7 +85,7 @@
    
    
 #### 2024/8/11 
-1. 收录代码相邻节点两两交换(leeCode 24)<br>
+1. 收录代码[相邻节点两两交换](src/main/java/com/example/programmercarl/chain_table/exchange_one_by_one/Exchange.java)(leeCode 24)<br>
    执行用时分布
    0
    ms
@@ -97,8 +97,8 @@
    MB
    击败
    64.22%<br>
-   较优题解题解与我所写的方法一致，既不过多赘述<br><br>
-2. 收录代码删除倒数第n个节点(leeCode 19)<br>
+   较优题解与我所写的方法一致，既不过多赘述<br><br>
+2. 收录代码[删除倒数第n个节点](src/main/java/com/example/programmercarl/chain_table/delete_the_nth_last_node/Delete.java)(leeCode 19)<br>
    执行用时分布
    0
    ms
