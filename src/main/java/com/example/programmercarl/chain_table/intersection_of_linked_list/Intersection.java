@@ -9,6 +9,9 @@ public class Intersection {
         给你两个单链表的头节点 headA 和 headB ，
         请你找出并返回两个单链表相交的起始节点。如果两个链表没有交点，返回 null 。
      */
+    /*
+    思路：先判断并排除头都是null等特殊情况，然后看最后一个节点一不一样，然后再从后往前比较。
+     */
     public  static ListNode getNodeByIndex(ListNode head, int index){
         ListNode p = head;
         if(index < 0){

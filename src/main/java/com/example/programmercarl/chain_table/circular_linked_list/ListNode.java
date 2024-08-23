@@ -1,4 +1,4 @@
-package com.example.programmercarl.chain_table.Circular_linked_list;
+package com.example.programmercarl.chain_table.circular_linked_list;
 
 public class ListNode {
     //节点的值

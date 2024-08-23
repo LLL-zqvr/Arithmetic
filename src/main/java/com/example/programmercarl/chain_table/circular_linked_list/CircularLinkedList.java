@@ -1,7 +1,4 @@
-package com.example.programmercarl.chain_table.Circular_linked_list;
-
-import java.sql.SQLOutput;
-import java.util.Scanner;
+package com.example.programmercarl.chain_table.circular_linked_list;
 
 public class CircularLinkedList {
     /*

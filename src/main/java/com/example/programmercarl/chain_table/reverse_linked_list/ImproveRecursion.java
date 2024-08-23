@@ -3,6 +3,7 @@ package com.example.programmercarl.chain_table.reverse_linked_list;
 import java.util.Scanner;
 
 public class ImproveRecursion {
+    //递归法
     public static ListNode reverseList(ListNode head) {
         return reverse(null, head);
     }
