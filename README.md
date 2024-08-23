@@ -113,7 +113,7 @@
    
 #### 2024/8/9
 
-1. 收录设计链表(leeCode 707)<br>
+1. 收录代码[设计链表](src/main/java/com/example/programmercarl/chain_table/design_linked_list/MyLinkedList.java)(leeCode 707)<br>
    执行用时分布
    12
    ms
@@ -126,7 +126,7 @@
    击败
    98.08%
    <br><br>
-   根据较好题解重写（其实都差不多啊，链表这边的基础题很难玩出花来。差不多一个写法。题解中还有更快的，但是直接用了java里的自带库，感觉算是钻了空子，对该题来说没有意义。便不多记录。）<br>
+   根据较好题解[重写](src/main/java/com/example/programmercarl/chain_table/design_linked_list/MyLinkedListImprove.java)（其实都差不多啊，链表这边的基础题很难玩出花来。差不多一个写法。题解中还有更快的，但是直接用了java里的自带库，感觉算是钻了空子，对该题来说没有意义。便不多记录。）<br>
    执行用时分布
    10
    ms
@@ -138,7 +138,7 @@
    MB
    击败
    29.68%<br><br>
-2. 收录反转链表(leeCode 206)<br>
+2. 收录[反转链表](src/main/java/com/example/programmercarl/chain_table/reverse_linked_list/Reverse.java)(leeCode 206)<br>
    执行用时分布
    0
    ms
@@ -150,7 +150,7 @@
    MB
    击败
    28.91%<br><br>
-   根据较好题解改写代码（方法一样，提高一下代码可读性）
+   根据较好题解[改写代码](src/main/java/com/example/programmercarl/chain_table/reverse_linked_list/Improve.java)（方法一样，提高一下代码可读性）
    执行用时分布
    0
    ms
@@ -162,7 +162,7 @@
    MB
    击败
    77.84%<br><br>
-   用递归写一下：
+   用[递归](src/main/java/com/example/programmercarl/chain_table/reverse_linked_list/ImproveRecursion.java)写一下：
    执行用时分布
    0
    ms
@@ -178,7 +178,7 @@
    
 #### 2024/8/7
 
-1. 收录移除链表(leeCode 203)<br>
+1. 收录[移除链表](src/main/java/com/example/programmercarl/chain_table/remove_linked_list_element/RemoveElement.java)(leeCode 203)<br>
    执行用时分布
    1
    ms
@@ -190,17 +190,17 @@
    MB
    击败
    82.59%
-   题解代码差不多，就不过多赘述。
+   [题解代码](src/main/java/com/example/programmercarl/chain_table/remove_linked_list_element/Improve.java)差不多，就不过多赘述。
 
 #### 2024/8/6
-1. 收录题开发商买土地(ACM模式)(KamaCoder 44)<br>
+1. 收录题[开发商买土地](src/main/java/com/example/programmercarl/arrary/the_developer_buys_land/DeveloperBuysLand.java)(ACM模式)(KamaCoder 44)<br>
    (前缀和)
    答案正确
    运行时间：
    2104ms
    消耗内存：
    25700kb<br><br>
-   根据较好题解重写代码(也是前缀和，但是多用现成的Math函数简化了计算，增加了代码的可读性)<br>
+   根据较好题解重写代码([也是前缀和，但是多用现成的Math函数简化了计算，增加了代码的可读性](src/main/java/com/example/programmercarl/arrary/the_developer_buys_land/Improve.java))<br>
    本次提交
    答案正确
    运行时间：
@@ -209,10 +209,10 @@
    29008kb
 
 #### 2024/8/5
-1. 收录题区间和(ACM模式)(KamaCoder 58)<br>
+1. 收录题[区间和](src/main/java/com/example/programmercarl/arrary/sum_of_intervals/SumOfIntervals.java)(ACM模式)(KamaCoder 58)<br>
    (暴力)超时
    <br><br>
-   根据较好题解重写代码(前缀和)(该题特意卡的暴力，目的是引出前缀和)<br>
+   根据较好题解重写代码([前缀和](src/main/java/com/example/programmercarl/arrary/sum_of_intervals/Improve.java))(该题特意卡的暴力，目的是引出前缀和)<br>
    本次提交
    答案正确
    运行时间：
@@ -222,7 +222,7 @@
 
 #### 2024/8/4
 
-1. 收录题螺旋矩阵(leeCode 59)<br>
+1. 收录题[螺旋矩阵](src/main/java/com/example/programmercarl/arrary/spiral_matrix/SpiralMatrix.java)(leeCode 59)<br>
    执行用时分布
    0
    ms
@@ -234,7 +234,7 @@
    MB
    击败
    93.65%<br><br>
-    根据较好题解重写代码(该题考的是思维，题解的基本思想和我写的一致，但是思路更简洁易懂，可读性大大增强)<br>
+    根据较好题解[重写代码](src/main/java/com/example/programmercarl/arrary/spiral_matrix/Improve.java)(该题考的是思维，题解的基本思想和我写的一致，但是思路更简洁易懂，可读性大大增强)<br>
    执行用时分布
    0
    ms
@@ -249,8 +249,8 @@
 
 #### 2024/8/2
 
-1. 收录题长度最小的子数组(leeCode 209)<br>
-   根据较好题解重写代码(滑动窗口法)(improve)<br><br>
+1. 收录题[长度最小的子数组](src/main/java/com/example/programmercarl/arrary/smallest_length_subarray/Smallest.java)(leeCode 209)<br>
+   根据较好题解[重写代码](src/main/java/com/example/programmercarl/arrary/smallest_length_subarray/Improve.java)(滑动窗口法)(improve)<br><br>
    执行用时分布
    1
    ms
@@ -265,7 +265,7 @@
 
 #### 2024/8/1
 
-1. 收录题原地移除元素(leeCode num.27)<br>
+1. 收录题[原地移除元素](src/main/java/com/example/programmercarl/arrary/remove_element/RemoveElement.java)(leeCode num.27)<br>
    执行用时分布
    0
    ms
@@ -277,7 +277,7 @@
    MB
    击败
    45.27%<br><br>
-   根据较好题解重写代码(左右指针法)(improve)<br>
+   根据较好题解[重写代码](src/main/java/com/example/programmercarl/arrary/remove_element/Improve.java)(左右指针法)(improve)<br>
    执行用时分布
    0
    ms
@@ -289,7 +289,7 @@
    MB
    击败
    45.27%
-2. 收录题有序数组的平方(leeCode num.977)<br>
+2. 收录题[有序数组的平方](src/main/java/com/example/programmercarl/arrary/square_of_an_ordered_array/Square.java)(leeCode num.977)<br>
    执行用时分布
    5
    ms
@@ -301,7 +301,7 @@
    MB
    击败
    89.68%<br><br>
-根据较好题解重写代码，将时间复杂度减到1ms(左右指针法)(improve)<br>
+根据较好题解[重写代码](src/main/java/com/example/programmercarl/arrary/square_of_an_ordered_array/Improve.java)，将时间复杂度减到1ms(左右指针法)(improve)<br>
    执行用时分布
    1
    ms
@@ -316,7 +316,7 @@
 
 #### 2024/7/31
 
-1. 收录题二分法(leeCode num.705)<br>
+1. 收录题[二分法](src/main/java/com/example/programmercarl/arrary/binary_search/BinarySearch.java)(leeCode num.704)<br>
    执行用时分布
    0
    ms
@@ -328,7 +328,7 @@
    MB
    击败
    94.87%<br><br>
-根据二分法的较好题解重写代码(improve)<br>
+根据二分法的较好题解[重写代码](src/main/java/com/example/programmercarl/arrary/binary_search/Improve.java)(improve)<br>
    执行用时分布
    0
    ms
