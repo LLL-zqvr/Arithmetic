@@ -45,7 +45,7 @@
    根据数量关系计算(画图然后各种计算关系)，可以得出:<br>
    从头结点出发一个指针，从相遇节点 也出发一个指针，这两个指针每次只走一个节点， <br>
    那么当这两个指针相遇的时候就是 环形入口的节点。
-   
+2. 自此，链表的针对性练习就告一段落了，[总结在此~](src/main/java/com/example/programmercarl/chain_table/summary.md)
    
    
 
@@ -207,6 +207,7 @@
    2271ms
    消耗内存：
    29008kb
+2. 自此，数组的题的相关针对性练习就告一段落了，[总结在此~](src/main/java/com/example/programmercarl/arrary/summary.md)
 
 #### 2024/8/5
 1. 收录题[区间和](src/main/java/com/example/programmercarl/arrary/sum_of_intervals/SumOfIntervals.java)(ACM模式)(KamaCoder 58)<br>
