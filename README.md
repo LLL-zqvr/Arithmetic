@@ -22,6 +22,20 @@
 (但是不知道时间消耗准不准)
 ### Update
 
+#### 2024/8/27
+1. 收录代码[有效的字母异位词](src/main/java/com/example/programmercarl/hash_table/valid_letter_scrambles/ValidLetterScrambles.java)(leeCode 242)<br>
+   执行用时分布
+   5
+   ms
+   击败
+   34.13%
+   复杂度分析
+   消耗内存分布
+   42.24
+   MB
+   击败
+   46.57%
+   收录[较好题解](src/main/java/com/example/programmercarl/hash_table/valid_letter_scrambles/Improve.java)
 #### 2024/8/23
 1. 收录代码[环形链表](src/main/java/com/example/programmercarl/chain_table/circular_linked_list/CircularLinkedList.java)(leeCode 142.环形链表Ⅱ)<br>
    执行用时分布
