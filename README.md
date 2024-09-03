@@ -11,16 +11,40 @@
 
 - **Git**
 
-### Finding And Thinking
+### Finding, Thinking And Doing
 
 1. leeCode上的程序执行逻辑好像和idea上的不大一样，
 比如`for(int i = left; i <= right; i++){}`,
 当left和right相等时，idea会再执行一遍for的内容，
 但是leeCode的程序就不会再执行for了。(所以如果在自己的程序里面运行正确但是在leeCode上提交代码发现错误时可以看看是不是因为这个原因。)
 
-2.leeCode上的内存消耗测试是不准的。两次同样的代码测试过后内存消耗都可能天差地别。
+2. leeCode上的内存消耗测试是不准的。两次同样的代码测试过后内存消耗都可能天差地别。
 (但是不知道时间消耗准不准)
+
+3. 大概从九月三号的代码开始，就不再是将题粘来idea做了。打算走出idea的舒适圈，
+不依靠idea的自动代码提示，而是直接在力扣上写题，习惯一下力扣的核心代码模式。不过，写成功之后依然会建立相应文件来装题目，代码，心得，运行结果等。
+
 ### Update
+
+#### 2024/9/3
+1. 收录代码[两个数组的交集](src/main/java/com/example/programmercarl/hash_table/the_intersection_of_two_arrays/TheIntersectionOfTwoArrays.java)(leeCode 349)<br>
+   执行用时分布
+   3
+   ms
+   击败
+   49.90%
+   复杂度分析
+   消耗内存分布
+   43.73
+   MB
+   击败
+   5.00%<br>
+   想在最后把set直接转成数组，但是搜索了很久，都没有找到可靠有用的方法。
+   <br>
+   所以最后是额外建了一个数组来装set的遍历的内容。
+   <br>收录[较好题解](src/main/java/com/example/programmercarl/hash_table/the_intersection_of_two_arrays/Improve.java)(set转数组)
+   题解所用的思路和我的可谓是一模一样。但是惊喜之处是题解给出了将set
+   转数组的方法。感觉是非常有用的。
 
 #### 2024/8/27
 1. 收录代码[有效的字母异位词](src/main/java/com/example/programmercarl/hash_table/valid_letter_scrambles/ValidLetterScrambles.java)(leeCode 242)<br>
@@ -34,8 +58,8 @@
    42.24
    MB
    击败
-   **46.57%<br><br>
-   收录**[较好题解](src/main/java/com/example/programmercarl/hash_table/valid_letter_scrambles/Improve.java)
+   46.57%<br><br>
+   收录[较好题解](src/main/java/com/example/programmercarl/hash_table/valid_letter_scrambles/Improve.java)
 #### 2024/8/23
 1. 收录代码[环形链表](src/main/java/com/example/programmercarl/chain_table/circular_linked_list/CircularLinkedList.java)(leeCode 142.环形链表Ⅱ)<br>
    执行用时分布
