@@ -11,6 +11,8 @@
 
 - **Git**
 
+- **JDK21**
+
 ### Finding, Thinking And Doing
 
 1. leeCode上的程序执行逻辑好像和idea上的不大一样，
@@ -46,6 +48,7 @@
    题解所用的思路和我的可谓是一模一样。但是惊喜之处是题解给出了将set
    转数组的方法。感觉是非常有用的。
 
+2. 更新了一下idea，将其整到2024年版，并且把jdk整成了21版。
 #### 2024/8/27
 1. 收录代码[有效的字母异位词](src/main/java/com/example/programmercarl/hash_table/valid_letter_scrambles/ValidLetterScrambles.java)(leeCode 242)<br>
    执行用时分布
