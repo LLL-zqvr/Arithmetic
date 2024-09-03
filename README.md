@@ -44,9 +44,22 @@
    想在最后把set直接转成数组，但是搜索了很久，都没有找到可靠有用的方法。
    <br>
    所以最后是额外建了一个数组来装set的遍历的内容。
-   <br>收录[较好题解](src/main/java/com/example/programmercarl/hash_table/the_intersection_of_two_arrays/Improve.java)(set转数组)
+   <br>收录[较好题解](src/main/java/com/example/programmercarl/hash_table/the_intersection_of_two_arrays/Improve.java)(set转数组)<br>
+   
+   执行用时分布
+   4
+   ms
+   击败
+   31.93%
+   复杂度分析
+   消耗内存分布
+   42.48
+   MB
+   击败
+   30.00%<br>
    题解所用的思路和我的可谓是一模一样。但是惊喜之处是题解给出了将set
-   转数组的方法。感觉是非常有用的。
+   转数组的方法。感觉是非常有用的，而且之后肯定也会有大用处（有很大的预感，这个方法可以成为这个章节的主角之一）。<br>
+   
 
 2. 更新了一下idea，将其整到2024年版，并且把jdk整成了21版。
 #### 2024/8/27
