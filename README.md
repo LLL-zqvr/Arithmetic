@@ -44,8 +44,8 @@
    想在最后把set直接转成数组，但是搜索了很久，都没有找到可靠有用的方法。
    <br>
    所以最后是额外建了一个数组来装set的遍历的内容。
-   <br>收录[较好题解](src/main/java/com/example/programmercarl/hash_table/the_intersection_of_two_arrays/Improve.java)(set转数组)<br>
-   
+   <br>收录[较好题解](src/main/java/com/example/programmercarl/hash_table/the_intersection_of_two_arrays/Improve.java)(set转数组)
+   <br>
    执行用时分布
    4
    ms
