@@ -26,7 +26,31 @@
 3. 大概从九月三号的代码开始，就不再是将题粘来idea做了。打算走出idea的舒适圈，
 不依靠idea的自动代码提示，而是直接在力扣上写题，习惯一下力扣的核心代码模式。不过，写成功之后依然会建立相应文件来装题目，代码，心得，运行结果等。
 
+4. 大概从九月四号开始，会在update加上自己的简略解题思路！但是也推荐直接点开详细代码！里面直接记录了
+思考的方向等更加具体的解题过程，如果时间多的话，重看的时候应该会很有意思的吧(o゜▽゜)o☆
+
 ### Update
+
+#### 2024/9/4
+1. 收录代码[快乐数](src/main/java/com/example/programmercarl/hash_table/happy_numbers/HappyNumbers.java)(leeCode 202)<br>
+   思路：整一个set记录计算后的数，如果过程中数为1则return ture;反之则丢在set中
+   <br>
+   如果计算中和set中的值重复则非快乐数返回false<br>
+   set真好用,嘿嘿<br>
+   执行用时分布
+   1
+   ms
+   击败
+   81.14%
+   复杂度分析
+   消耗内存分布
+   39.79
+   MB
+   击败
+   69.84%<br>
+   看了一下题解，方法过程啥的都差不多一毛一样啊（不过也是因为这道题实在是过于简单了（￣︶￣））
+   所以题解略啦哈哈哈。
+
 
 #### 2024/9/3
 1. 收录代码[两个数组的交集](src/main/java/com/example/programmercarl/hash_table/the_intersection_of_two_arrays/TheIntersectionOfTwoArrays.java)(leeCode 349)<br>
