@@ -46,6 +46,22 @@
 - set （集合）
 - map(映射)
 
+### set的使用
+
+#### set的遍历
+
+`
+Iterator<Integer> it = set.iterator();
+while (it.hasNext()) {
+System.out.println(it.next());
+            }
+` 
+
+或者 
+
+`for (Integer integer : set) {
+System.out.println(integer);
+            }`
 ### map的使用
 
 #### 常见的三种map
