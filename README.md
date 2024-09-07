@@ -49,7 +49,8 @@
    这次写则想试试用其他方法，<br>
    思路如下：只使用一个while(),用前后指针法。p在后，q在前跑，`nums[p] + nums[q] == target`则记录下p，q，它们则是答案。<br>
    当`q == length`则p往前走一步，q再在p前面跑，一直循环直到p到达尽头。
-   感觉思路还是很清晰的。<br>
+   感觉思路还是很清晰的。 
+
    结果：
    执行用时分布
    59
@@ -61,13 +62,14 @@
    43.75
    MB
    击败
-   80.75%<br>
+   80.75% 
+
    收录[优秀题解](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/Improve.java)<br>题解这里是使用map来解决的。<br>
    另：题解中map的key储存的是数组中值，value储存的是数组的下标。<br>以下是常见一点的map(java)
    ![三种map](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/img_2.png)
    过程图如下:<br>
-   ![截图](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/img_1.png)<br>[更详细的分析过程在此](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/improve_solution.md)。
-   <br>
+   ![截图](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/img_1.png)<br>[更详细的分析过程在此](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/improve_solution.md)。 
+
    执行用时分布
    2
    ms
