@@ -45,3 +45,44 @@
 - 数组
 - set （集合）
 - map(映射)
+
+### map的使用
+
+#### 常见的三种map
+- HashMap：基于哈希表实现，具有快速的查找和插入操作，适用于需要快速查找键值对的场景。
+- TreeMap：基于红黑树实现，可以对键进行排序，并提供了一系列与排序相关的方法，适用于需要对键进行排序的场景。
+- LinkedHashMap：基于哈希表和链表实现，保持键值对的插入顺序，适用于需要保持插入顺序的场景。
+![截图](the_sum_of_two_numbers/img_2.png) 
+
+##### Hashmap
+
+HashMap是Map接口的一个常见实现类，它基于哈希表实现，可以提供快速的查找和插入操作。以下是一些常用的HashMap方法：
+
+- put(K key, V value): 将指定的键值对添加到HashMap中。
+- remove(Object key): 从HashMap中移除指定键的键值对。
+- get(Object key): 返回指定键对应的值。
+- containsKey(Object key): 检查HashMap中是否包含指定的键。
+- containsValue(Object value): 检查HashMap中是否包含指定的值。
+- size(): 返回HashMap中键值对的数量。
+
+##### Treemap
+
+TreeMap是Map接口的另一个常见实现类，它基于红黑树实现，可以对键进行排序，并提供了一系列与排序相关的方法。以下是一些常用的TreeMap方法：
+
+- put(K key, V value): 将指定的键值对添加到TreeMap中。
+- remove(Object key): 从TreeMap中移除指定键的键值对。
+- get(Object key): 返回指定键对应的值。
+- containsKey(Object key): 检查TreeMap中是否包含指定的键。
+- size(): 返回TreeMap中键值对的数量。
+- firstKey(): 返回TreeMap中的第一个键。
+- lastKey(): 返回TreeMap中的最后一个键。
+
+##### LinkedHashMap
+
+LinkedHashMap是Map接口的另一个实现类，它基于哈希表和链表实现，并保持键值对的插入顺序。以下是一些常用的LinkedHashMap方法：
+
+- put(K key, V value): 将指定的键值对添加到LinkedHashMap中。
+- remove(Object key): 从LinkedHashMap中移除指定键的键值对。
+- get(Object key): 返回指定键对应的值。
+- containsKey(Object key): 检查LinkedHashMap中是否包含指定的键。
+- size(): 返回LinkedHashMap中键值对的数量。
