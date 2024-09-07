@@ -13,6 +13,7 @@ public class Improve {
     /*
     使用哈希表：
     //使用哈希表
+    //注：这里的map中key储存的是数组值，value储存的是数组下标。
 public int[] twoSum(int[] nums, int target) {
     int[] res = new int[2];
     if(nums == null || nums.length == 0){

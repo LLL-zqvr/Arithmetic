@@ -62,7 +62,8 @@
    MB
    击败
    80.75%<br>
-   收录[优秀题解](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/Improve.java)<br>题解这里是使用map来解决的。以下是常见一点的map(java)
+   收录[优秀题解](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/Improve.java)<br>题解这里是使用map来解决的。<br>
+   另：题解中map的key储存的是数组中值，value储存的是数组的下标。<br>以下是常见一点的map(java)
    ![三种map](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/img_2.png)
    过程图如下:<br>
    ![截图](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/img_1.png)<br>[更详细的分析过程在此](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/improve_solution.md)。
