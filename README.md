@@ -31,6 +31,54 @@
 
 ### Update
 
+#### 2024/9/6
+
+1. 收录代码[两数之和](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/TheSumOfTwoNumbers.java)(leeCode 1)(前后指针法)<br>
+   值得一提的是，这个题之前做过收录过，是第二次写的算法题吧，当时没学啥算法，就直接[暴力解决](src/main/java/com/example/school/addtwonumberstogether/AddTwoNumbersTogether.java)了。 <br>
+   结果：执行用时分布
+   54
+   ms
+   击败
+   20.57%
+   复杂度分析
+   消耗内存分布
+   43.94
+   MB
+   击败
+   41.93% <br><br>
+   这次写则想试试用其他方法，<br>
+   思路如下：只使用一个while(),用前后指针法。p在后，q在前跑，`nums[p] + nums[q] == target`则记录下p，q，它们则是答案。<br>
+   当`q == length`则p往前走一步，q再在p前面跑，一直循环直到p到达尽头。
+   感觉思路还是很清晰的。<br>
+   结果：
+   执行用时分布
+   59
+   ms
+   击败
+   7.58%
+   复杂度分析
+   消耗内存分布
+   43.75
+   MB
+   击败
+   80.75%<br>
+   收录[优秀题解](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/Improve.java)题解这里是使用map来解决的。
+   ![三种map](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/img.png)
+   过程图如下:
+   ![截图](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/img_1.png)[更详细的分析过程在此](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/improve_solution.md)。
+   <br>
+   执行用时分布
+   2
+   ms
+   击败
+   99.61%
+   复杂度分析
+   消耗内存分布
+   44.02
+   MB
+   击败
+   27.19%<br>
+   可以看出来提升是非常大的。
 #### 2024/9/4
 1. 收录代码[快乐数](src/main/java/com/example/programmercarl/hash_table/happy_numbers/HappyNumbers.java)(leeCode 202)<br>
    思路：整一个set记录计算后的数，如果过程中数为1则return ture;反之则丢在set中
