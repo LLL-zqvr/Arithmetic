@@ -1,5 +1,7 @@
 package com.example.programmercarl.hash_table.valid_letter_scrambles;
 
+import java.util.Set;
+
 public class Improve {
     /*
 
@@ -26,4 +28,8 @@ public class Improve {
     242. 有效的字母异位词 字典解法
     时间复杂度O(m+n) 空间复杂度O(1)
      */
+    public static void main(String[] args) {
+        String str = "s";
+        System.out.println(str.charAt(0));
+    }
 }

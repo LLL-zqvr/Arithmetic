@@ -31,6 +31,29 @@
 
 ### Update
 
+#### 2024/9/8
+1. 收录代码[赎金信](src/main/java/com/example/programmercarl/hash_table/ransom_letter/RansomLetter.java)(leeCode 383) 
+
+   执行用时分布
+   71
+   ms
+   击败
+   5.34%
+   复杂度分析
+   消耗内存分布
+   46.16
+   MB
+   击败
+   5.01% 
+   
+   大致思路就是，用字符当数组（数组用来统计数量）下标，一增一减，减成负数就说明 
+
+   肯定是少了。这道题和前面一道题几乎一模一样，这个方法也和那道题的题解思想差不多，按道理来说 
+
+   数据不会差才对，但是没想到复杂度则么高。难道还有更好的方法？ 
+
+   看了一下题解。确实方法是一样的，好吧那看来就是这样啦。因为写得差不多，所以题解就不再记录了。
+
 #### 2024/9/7
 
 1. 收录代码[四数相加为零(失败)](src/main/java/com/example/programmercarl/hash_table/the_sum_of_four_numbers/TheSumOfFourNumbers.java)(leeCode 454)(暴力)
