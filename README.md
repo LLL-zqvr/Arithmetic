@@ -49,9 +49,11 @@
 
    对应方法了(悲)。然后试着用二维数组int[][] 结果提示错误知道了java中负数不能作下标...... 
 
-   这道题想得够久了，而且方法还是暴力，再继续下去也没意义了，看题解吧(TT) 
+   这道题想得够久了，而且方法还是暴力，再继续下去也没意义了，看题解吧(T_T) 
 
-   
+   [题解](src/main/java/com/example/programmercarl/hash_table/the_sum_of_four_numbers/Improve.java) 
+
+   它好简单，我好心碎(T_T)
    
    
 
