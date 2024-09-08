@@ -31,6 +31,30 @@
 
 ### Update
 
+#### 2024/9/7
+
+1. 收录代码[四数相加为零(失败)](src/main/java/com/example/programmercarl/hash_table/the_sum_of_four_numbers/TheSumOfFourNumbers.java)(leeCode 454)(暴力)
+   低估这道题了。以为它是上一题的变式或者深入，但是发现我无法解决储存两个数并去重这个问题。
+   我的思路是这样的，打算纯暴力， 
+   
+   先用map记录下前两个数组各种和的组合，然后再创建一个set，用map.contains() 
+   
+   函数检验另两个数组的各种和的倒数的组合，若在map中存在，则放入set中。这样我就可以得到了 
+
+   满足条件的两数相加等于另两数相加的倒数中的加值。这时候再分开看前两个数组有哪些不重复的组合的加值等于目标加值，既mul， 
+
+   下半同理，多个mul相加既得出答案。但是找不到合适的数据结构来记录这两个数（如数组1，2的某值）并实现去重。试过利用set 
+
+   创了个set<int[]>的结构，结果用了才发现set中的数组是不能去重的，查了一下说是如果想要去重set中的对象等结构的话就要自己重写 
+
+   对应方法了(悲)。然后试着用二维数组int[][] 结果提示错误知道了java中负数不能作下标...... 
+
+   这道题想得够久了，而且方法还是暴力，再继续下去也没意义了，看题解吧(TT) 
+
+   
+   
+   
+
 #### 2024/9/6
 
 1. 收录代码[两数之和](src/main/java/com/example/programmercarl/hash_table/the_sum_of_two_numbers/TheSumOfTwoNumbers.java)(leeCode 1)(前后指针法)<br>
