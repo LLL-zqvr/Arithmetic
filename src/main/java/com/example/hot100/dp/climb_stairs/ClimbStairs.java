@@ -1,4 +1,4 @@
-package com.example.hot100.dp;
+package com.example.hot100.dp.climb_stairs;
 
 public class ClimbStairs {
     //使用了递归和记忆数组（像缓存哈哈哈哈）。
@@ -20,8 +20,23 @@ public class ClimbStairs {
     //        }
     //    }
     //}
+
+
+    //继续优化，直接递推
+    //class Solution {
+    //    public int climbStairs(int n) {
+    //        int[] f = new int[n + 1];
+    //        f[0] = f[1] = 1;
+    //        for (int i = 2; i <= n; i++) {
+    //            f[i] = f[i - 1] + f[i - 2];
+    //        }
+    //        return f[n];
+    //    }
+    //}
+
 }
-//执行用时分布
+//1.
+// 执行用时分布
 //0
 //ms
 //击败
