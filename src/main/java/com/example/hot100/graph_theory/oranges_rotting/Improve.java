@@ -45,6 +45,7 @@ public class Improve {
     public static void main(String[] args) {
         int[][] grid = {{2,1,1},{1,1,0},{0,1,1}};
         System.out.println(orangesRotting(grid));
+        System.out.println('a' + 1);
     }
 }
 //执行用时分布
