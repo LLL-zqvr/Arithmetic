@@ -9,6 +9,8 @@ public class Improve {
     发现这个思路和我的非常相近。看了代码之后才发现该代码for中用了while来找到终止位置。
     但是因为只执行了一次所以也是复杂度为n。这是个很好地思路。
      */
+    //思路：用右边指针向右移动，如果sum>=target，则说明找到了一个满足条件的子序列，然后再通过while缩短左指针。
+    //right - left + 1中的 +1 是精髓，代表的是最后适合的（即最短的）子序列长度。
     public static int minSubArrayLen(int target, int[] nums) {
         int left = 0;
         int sum = 0;
