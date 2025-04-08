@@ -85,3 +85,14 @@ let subarraySum = function(nums, k) {
 };
 let nums = [1,2,3], k = 3;
 console.log(subarraySum(nums, k))
+//执行用时分布
+// 26
+// ms
+// 击败
+// 44.29%
+// 复杂度分析
+// 消耗内存分布
+// 66.35
+// MB
+// 击败
+// 9.71%
