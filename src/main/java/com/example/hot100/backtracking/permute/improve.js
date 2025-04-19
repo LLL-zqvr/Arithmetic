@@ -31,7 +31,7 @@
      * @param {number[]} nums
      * @return {number[][]}
      */
-    var permute = function(nums) {
+    var improve = function(nums) {
         const res = [], path = [];
         backtracking(nums, nums.length, []);
         return res;
@@ -52,4 +52,4 @@
         }
     };
     let nums = [1,2,3];
-    console.log(permute(nums));
+    console.log(improve(nums));

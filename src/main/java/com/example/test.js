@@ -7,5 +7,8 @@
 // console.log(st.pop());
 // console.log(st)
 
-let str = {'sd':'f', 'f':'h','e':'g'};
-console.log(str.hasOwnProperty('sd'));
+// let str = {'sd':'f', 'f':'h','e':'g'};
+// console.log(str.hasOwnProperty('sd'));
+
+let set = new Set(['sd','f','f','h']);
+console.log(set)
