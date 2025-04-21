@@ -1,14 +1,11 @@
-// let str = "sfsdgh";
-// for(let s of str) {
-//     console.log(s);
-// }
+const promise = new Promise((resolve, reject) => {
+    console.log(1)
+    resolve('success')
+    console.log(2)
+})
 
-// let st = ['s','f','f','h'];
-// console.log(st.pop());
-// console.log(st)
-
-// let str = {'sd':'f', 'f':'h','e':'g'};
-// console.log(str.hasOwnProperty('sd'));
-
-let set = new Set(['sd','f','f','h']);
-console.log(set)
+promise.then(() => {
+    console.log(3)
+})
+console.dir(promise)
+console.log(4)

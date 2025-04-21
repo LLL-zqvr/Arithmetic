@@ -33,6 +33,7 @@ strs[i] 仅包含小写字母
 var groupAnagrams = function(strs) {
     //_是假定存在的一个Lodash的全局对象,Lodash是一个js工具库，作用是降低array、number、objects、string等等的使用难度。
     const g = _.groupBy(strs, s => s.split('').sort().join(''));
+    console.log(g)
     //也就是说， Object.values(g);可以写成 _.values(g);
     return Object.values(g);
 };
