@@ -1,4 +1,4 @@
-package com.example.hot100.arrary.anagram_groups;
+package com.example.hot100.hash.anagram_groups;
 
 import java.util.Scanner;
 

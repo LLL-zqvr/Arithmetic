@@ -17,4 +17,6 @@ function flattenObject(obj, parentKey = '', result = {}) {
 const originalObj = {a: 3, b: {c: 4, d: [6, 6]}};
 const flattenedObj = flattenObject(originalObj);
 console.log(flattenedObj);
-    
+let str = ["a","f"];
+let test = {};
+console.log(typeof (test))

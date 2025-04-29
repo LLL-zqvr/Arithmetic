@@ -1,4 +1,4 @@
-package com.example.hot100.arrary.longest_consecutive_sequence;
+package com.example.hot100.hash.longest_consecutive_sequence;
 
 import java.util.Arrays;
 import java.util.HashSet;

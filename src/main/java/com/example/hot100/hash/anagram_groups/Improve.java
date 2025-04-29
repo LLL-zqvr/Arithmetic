@@ -1,4 +1,4 @@
-package com.example.hot100.arrary.anagram_groups;
+package com.example.hot100.hash.anagram_groups;
 
 public class Improve {
     //思路一样，但是用的方法不同，像这个就写的很优雅
