@@ -16,8 +16,8 @@ premium lock icon
 输入：n = 12
 输出：3 
 解释：12 = 4 + 4 + 4
-示例 2：
 
+示例 2：
 输入：n = 13
 输出：2
 解释：13 = 4 + 9
@@ -26,3 +26,18 @@ premium lock icon
 
 1 <= n <= 104
  */
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var numSquares = function(n) {
+    const f = new Array(n + 1).fill(0);
+    for(let i = 1; i <= n; i++) {
+        let min = Number.MAX_VALUE;
+        for(let j = 1; j * j <= i; j++) {
+            min = Math.min(min, f[i - j * j])
+        }
+        f[i] = min + 1;
+    }
+    return f[i];
+};
